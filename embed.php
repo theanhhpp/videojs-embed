@@ -18,7 +18,7 @@ if($_GET['url'] != ""){
 	<title>Embed Video</title>
 
     <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
-    <link href="//style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
 
     <!-- If you'd like to support IE8 -->
