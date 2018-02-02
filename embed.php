@@ -17,12 +17,12 @@ if($_GET['url'] != ""){
   <meta charset="utf-8" />
 	<title>Embed Video</title>
 
-    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+    <link href="video-js.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
 
     <!-- If you'd like to support IE8 -->
-    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="videojs-ie8.min.js"></script>
 
 </head>
 <body>
@@ -31,10 +31,10 @@ if($_GET['url'] != ""){
 	    <source src="<?php echo $linkdown?>" type='video/mp4'>
 	    <p class="vjs-no-js">
 	      To view this video please enable JavaScript, and consider upgrading to a web browser that
-	      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+	      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
 	    </p>
 	  </video>
-        <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+        <script src="video.js"></script>
     </div>
 
 
